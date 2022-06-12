@@ -1,0 +1,75 @@
+body, ul, li, h1, a{
+    font-family: arial;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: #3c5c7f;
+}
+
+.akshaytxt{
+    background-color: #3c5c7f;
+    text-align: center;
+    margin-top: 18%;
+    position: sticky;
+    top: -70px;
+    width: 100%;
+
+}
+
+
+.akshaytxt .sub{
+    display: inline-block;
+    text-align: left;
+}
+
+.akshaytxt .sub:hover h1{
+    color: white;
+    letter-spacing: 3px;
+}
+.akshaytxt .sub:hover h4{
+    color: #b9d9fb;
+
+}
+.akshaytxt .sub:hover img{
+    opacity: 100%;
+
+}
+
+
+.akshaytxt h4{
+    font-size: 30px;
+    display: inline-block;
+    margin-bottom: 0px;
+    color: white;
+    transition: color 1s;
+}
+
+.akshaytxt h1{
+    display: inline;
+    font-size: 60px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    color: #b9d9fb;
+    transition: all 1s;
+}
+
+.akshaytxt h1 a{
+    text-decoration: none;
+    color: inherit;
+}
+
+.akshaytxt .sub img{
+    margin-bottom: 0px;
+    opacity: 0%;
+    height: 60px;
+    width: 60px;
+    transition: 1s;
+}
+
+p{
+    color: white;
+    padding: 0 40px;
+}
+
